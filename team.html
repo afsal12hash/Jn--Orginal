@@ -1,286 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jn Communication</title>
- <link rel="website icon" type="png" href="./image/cropped-J N LOGO.png" >
+    <link rel="website icon" type="png" href="./image/cropped-J N LOGO.png" />
     <!-- remix icon cdn link  -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- header section starts  -->
     <header class="header">
-        <a href="index.html" class="logo">
-          <img src="./image/logo.png" width="45%" alt="" />
-        </a>
-  
-        <form action="#" class="search-form">
-          <input type="search" placeholder="search here...." id="search-box" />
-          <label for="search-box" class="ri-search-line"></label>
-        </form>
-        <div class="icons">
-          <div id="menu-btn" class="ri-menu-line"></div>
-          <div id="search-btn" class="ri-search-line"></div>
-          <!-- <div id="cart-btn" class="ri-shopping-cart-line"></div>
-          <div id="login-btn" class="ri-admin-line"></div> -->
-        </div>
-      </header>
-  
-      <!-- header section ends  -->
-  
-      <!-- closer btn  -->
-  
-      <div id="closer" class="ri-close-line"></div>
-  
-      <!-- navbar start  -->
-  
-      <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="shop.html">Shop</a>
-        <a href="about.html">About</a>
-        <a href="team.html">Team</a>
-        <a href="service.html">Service</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-  
-      <!-- navbar end  -->
-  
-      <!-- shopping cart start  -->
-  
-      <div class="shopping-cart">
-        <div class="box">
-          <i class="ri-close-line close-icon"></i>
-          <img
-            src="./image/cart1.png"
-            width="43% "
-            style="border-radius: 20%; border: 1px dotted #caab9f"
-            alt=""
-          />
-          <div class="content">
-            <h3>Modern Cable</h3>
-            <span class="quantity"> 1 </span>
-            <span class="multiply"> X </span>
-            <span class="price">₹ 250 </span>
-          </div>
-        </div>
-  
-        <div class="box">
-          <i class="ri-close-line close-icon"></i>
-          <img
-            src="./image/cart2.png"
-            width="43%"
-            style="border-radius: 20%; border: 1px dotted #caab9f"
-            alt=""
-          />
-          <div class="content">
-            <h3>Hear Phones</h3>
-            <span class="quantity"> 1 </span>
-            <span class="multiply"> X </span>
-            <span class="price">₹ 250 </span>
-          </div>
-        </div>
-  
-        <div class="box">
-          <i class="ri-close-line close-icon"></i>
-          <img
-            src="./image/cart3.png"
-            width="43%"
-            style="border-radius: 20%; border: 1px dotted #caab9f"
-            alt=""
-          />
-          <div class="content">
-            <h3>Memory Card</h3>
-            <span class="quantity"> 1 </span>
-            <span class="multiply"> X </span>
-            <span class="price">₹ 250 </span>
-          </div>
-        </div>
-  
-        <div class="box">
-          <i class="ri-close-line close-icon"></i>
-          <img
-            src="./image/cart4.png"
-            width="43%"
-            style="border-radius: 20%; border: 1px dotted #caab9f"
-            alt=""
-          />
-          <div class="content">
-            <h3>Modern OTG</h3>
-            <span class="quantity"> 1 </span>
-            <span class="multiply"> X </span>
-            <span class="price">₹ 250 </span>
-          </div>
-        </div>
-  
-        <div class="box">
-          <i class="ri-close-line close-icon"></i>
-          <img
-            src="./image/cart5.png"
-            width="43%"
-            style="border-radius: 20%; border: 1px dotted #caab9f"
-            alt=""
-          />
-          <div class="content">
-            <h3>Power Bank</h3>
-            <span class="quantity"> 1 </span>
-            <span class="multiply"> X </span>
-            <span class="price">₹ 250 </span>
-          </div>
-        </div>
-        <h3 class="total">Total : <span>₹1250</span></h3>
-        <a href="#" class="btn">Checkout Cart</a>
-      </div>
-  
-      <!-- shopping cart end  -->
-  
-      <!-- login form start  -->
-  
-      <div class="login-form">
-        <form action="#">
-          <h3>Login Form</h3>
-          <input type="email" placeholder="Enter The Email" class="box" />
-          <input type="password" placeholder="Enter The Password" class="box" />
-          <div class="remember">
-            <input type="checkbox" name="" id="remember-me" />
-            <label for="remember-me">Remember Me</label>
-          </div>
-          <input type="submit" value="login now" class="btn" />
-          <p>Forget Password <a href="#">Click here</a></p>
-          <p>Dont' have an account? <a href="#">Create Now</a></p>
-        </form>
-      </div>
-  
-      <!-- login form end  -->
+      <a href="index.html" class="logo">
+        <img src="./image/logo.png" width="45%" alt="" />
+      </a>
 
+      <form action="#" class="search-form">
+        <input type="search" placeholder="search here...." id="search-box" />
+        <label for="search-box" class="ri-search-line"></label>
+      </form>
+      <div class="icons">
+        <div id="menu-btn" class="ri-menu-line"></div>
+        <div id="search-btn" class="ri-search-line"></div>
+        <!-- <div id="cart-btn" class="ri-shopping-cart-line"></div>
+          <div id="login-btn" class="ri-admin-line"></div> -->
+      </div>
+    </header>
+
+    <!-- header section ends  -->
+
+    <!-- closer btn  -->
+
+    <div id="closer" class="ri-close-line"></div>
+
+    <!-- navbar start  -->
+
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="team.html">Team</a>
+      <a href="service.html">Service</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- navbar end  -->
+
+    <!-- shopping cart start  -->
+
+    <div class="shopping-cart">
+      <div class="box">
+        <i class="ri-close-line close-icon"></i>
+        <img
+          src="./image/cart1.png"
+          width="43% "
+          style="border-radius: 20%; border: 1px dotted #caab9f"
+          alt=""
+        />
+        <div class="content">
+          <h3>Modern Cable</h3>
+          <span class="quantity"> 1 </span>
+          <span class="multiply"> X </span>
+          <span class="price">₹ 250 </span>
+        </div>
+      </div>
+
+      <div class="box">
+        <i class="ri-close-line close-icon"></i>
+        <img
+          src="./image/cart2.png"
+          width="43%"
+          style="border-radius: 20%; border: 1px dotted #caab9f"
+          alt=""
+        />
+        <div class="content">
+          <h3>Hear Phones</h3>
+          <span class="quantity"> 1 </span>
+          <span class="multiply"> X </span>
+          <span class="price">₹ 250 </span>
+        </div>
+      </div>
+
+      <div class="box">
+        <i class="ri-close-line close-icon"></i>
+        <img
+          src="./image/cart3.png"
+          width="43%"
+          style="border-radius: 20%; border: 1px dotted #caab9f"
+          alt=""
+        />
+        <div class="content">
+          <h3>Memory Card</h3>
+          <span class="quantity"> 1 </span>
+          <span class="multiply"> X </span>
+          <span class="price">₹ 250 </span>
+        </div>
+      </div>
+
+      <div class="box">
+        <i class="ri-close-line close-icon"></i>
+        <img
+          src="./image/cart4.png"
+          width="43%"
+          style="border-radius: 20%; border: 1px dotted #caab9f"
+          alt=""
+        />
+        <div class="content">
+          <h3>Modern OTG</h3>
+          <span class="quantity"> 1 </span>
+          <span class="multiply"> X </span>
+          <span class="price">₹ 250 </span>
+        </div>
+      </div>
+
+      <div class="box">
+        <i class="ri-close-line close-icon"></i>
+        <img
+          src="./image/cart5.png"
+          width="43%"
+          style="border-radius: 20%; border: 1px dotted #caab9f"
+          alt=""
+        />
+        <div class="content">
+          <h3>Power Bank</h3>
+          <span class="quantity"> 1 </span>
+          <span class="multiply"> X </span>
+          <span class="price">₹ 250 </span>
+        </div>
+      </div>
+      <h3 class="total">Total : <span>₹1250</span></h3>
+      <a href="#" class="btn">Checkout Cart</a>
+    </div>
+
+    <!-- shopping cart end  -->
+
+    <!-- login form start  -->
+
+    <div class="login-form">
+      <form action="#">
+        <h3>Login Form</h3>
+        <input type="email" placeholder="Enter The Email" class="box" />
+        <input type="password" placeholder="Enter The Password" class="box" />
+        <div class="remember">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">Remember Me</label>
+        </div>
+        <input type="submit" value="login now" class="btn" />
+        <p>Forget Password <a href="#">Click here</a></p>
+        <p>Dont' have an account? <a href="#">Create Now</a></p>
+      </form>
+    </div>
+
+    <!-- login form end  -->
 
     <!-- heading section start -->
 
     <section class="heading">
       <h3>Our Shop</h3>
-      <p> <a href="index.html">Home</a> / <span>Team</span></p>
+      <p><a href="index.html">Home</a> / <span>Team</span></p>
     </section>
     <!-- heading section end -->
 
-
     <!-- team section start -->
 
-<section class="team">
-  <h1 class="title"> <span> Our team</span> <a href="#"> View All >></a></h1>
-  <div class="box-container">
-    <div class="box">
-      <div class="share">
-        <a href="#" class="ri-facebook-fill"></a>
-        <a href="#" class="ri-twitter-fill"></a>
-        <a href="#" class="ri-whatsapp-fill"></a>
-        <a href="#" class="ri-instagram-fill"></a>
-      </div>
-      <div class="image">
-        <img src="./image/team1.jpg" alt="">
-      </div>
-      <div class="user">
-        <h3>Shouka Ali</h3>
-        <span>BCA</span>
-      </div>
-    </div>
+    <section class="team">
+      <h1 class="title"><span> Our team</span> <a href="#"> View All >></a></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="share">
+            <a href="#" class="ri-facebook-fill"></a>
+            <a href="#" class="ri-twitter-fill"></a>
+            <a href="#" class="ri-whatsapp-fill"></a>
+            <a href="#" class="ri-instagram-fill"></a>
+          </div>
+          <div class="image">
+            <img src="./image/team1.jpg" alt="" />
+          </div>
+          <div class="user">
+            <h3>Shouka Ali</h3>
+            <span>BCA</span>
+          </div>
+        </div>
 
-    <div class="box">
-      <div class="share">
-        <a href="#" class="ri-facebook-fill"></a>
-        <a href="#" class="ri-twitter-fill"></a>
-        <a href="#" class="ri-whatsapp-fill"></a>
-        <a href="#" class="ri-instagram-fill"></a>
-      </div>
-      <div class="image">
-        <img src="image/team2.jpg" alt="">
-      </div>
-      <div class="user">
-        <h3>Salman Faris</h3>
-        <span>Bio Medical</span>
-      </div>
-    </div>
+        <div class="box">
+          <div class="share">
+            <a href="#" class="ri-facebook-fill"></a>
+            <a href="#" class="ri-twitter-fill"></a>
+            <a href="#" class="ri-whatsapp-fill"></a>
+            <a href="#" class="ri-instagram-fill"></a>
+          </div>
+          <div class="image">
+            <img src="image/team2.jpg" alt="" />
+          </div>
+          <div class="user">
+            <h3>Salman Faris</h3>
+            <span>Bio Medical</span>
+          </div>
+        </div>
 
-    <div class="box">
-      <div class="share">
-        <a href="#" class="ri-facebook-fill"></a>
-        <a href="#" class="ri-twitter-fill"></a>
-        <a href="#" class="ri-whatsapp-fill"></a>
-        <a href="#" class="ri-instagram-fill"></a>
+        <div class="box">
+          <div class="share">
+            <a href="#" class="ri-facebook-fill"></a>
+            <a href="#" class="ri-twitter-x-fill"></a>
+            <a href="#" class="ri-whatsapp-fill"></a>
+            <a href="#" class="ri-instagram-fill"></a>
+          </div>
+          <div class="image">
+            <img src="image/team3.jpg" alt="" />
+          </div>
+          <div class="user">
+            <h3>######</h3>
+            <span>###</span>
+          </div>
+        </div>
       </div>
-      <div class="image">
-        <img src="image/team3.jpg" alt="">
-      </div>
-      <div class="user">
-        <h3>######</h3>
-        <span>###</span>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
     <!-- team section end -->
 
     <!-- footer section start  -->
     <section class="footer">
-        <div class="box-container">
-          <div class="box">
-            <h3>Quick links</h3>
-            <a href="index.html"> <i class="ri-arrow-right-line"></i>Home</a>
-            <a href="shop.html"> <i class="ri-arrow-right-line"></i>Shop</a>
-            <a href="about.html"> <i class="ri-arrow-right-line"></i>About</a>
-            <a href="team.html"> <i class="ri-arrow-right-line"></i>Team</a>
-            <a href="service.html"> <i class="ri-arrow-right-line"></i>Service</a>
-            <a href="contact.html"> <i class="ri-arrow-right-line"></i>Contact</a>
-          </div>
-  
-          <div class="box">
-            <h3>Social Medias links</h3>
-            <a href="#"> <i class="ri-arrow-right-line"></i>My Teams</a>
-            <a href="#"> <i class="ri-arrow-right-line"></i> My Works</a>
-            <a href="#"><i class="ri-arrow-right-line"></i> Terms of user</a>
-            <a href="#"> <i class="ri-arrow-right-line"></i> Details</a>
-            <a href="#"> <i class="ri-arrow-right-line"></i> Genuine Work </a>
-          </div>
-  
-          <div class="box">
-            <h3>Social Medias links</h3>
-            <a href="#"> <i class="ri-facebook-fill"> </i> Facebook</a>
-            <a href="#"> <i class="ri-twitter-x-line"></i> Twitter</a>
-            <a href="#"><i class="ri-instagram-fill"></i> Instagram</a>
-            <a href="#"> <i class="ri-whatsapp-fill"></i> Whatsapp</a>
-            <a href="#"> <i class="ri-youtube-fill"></i> Youtube</a>
-          </div>
-  
-          <div class="box">
-            <h3>Newsletter</h3>
-            <p>Subscribe for latest update</p>
-            <form action="#">
-              <input type="email" placeholder="Enetr Your Email" id="" />
-              <input type="submit" value="Subscribe" class="btn" />
-            </form>
-          </div>
+      <div class="box-container">
+        <div class="box">
+          <h3>Quick links</h3>
+          <a href="index.html"> <i class="ri-arrow-right-line"></i>Home</a>
+          <a href="shop.html"> <i class="ri-arrow-right-line"></i>Shop</a>
+          <a href="about.html"> <i class="ri-arrow-right-line"></i>About</a>
+          <a href="team.html"> <i class="ri-arrow-right-line"></i>Team</a>
+          <a href="service.html"> <i class="ri-arrow-right-line"></i>Service</a>
+          <a href="contact.html"> <i class="ri-arrow-right-line"></i>Contact</a>
         </div>
-      </section>
-  
-      <section class="credit">
-        Created By Shoukath Ali | all right reserved!
-      </section>
+
+        <div class="box">
+          <h3>Social Medias links</h3>
+          <a href="#"> <i class="ri-arrow-right-line"></i>My Teams</a>
+          <a href="#"> <i class="ri-arrow-right-line"></i> My Works</a>
+          <a href="#"><i class="ri-arrow-right-line"></i> Terms of user</a>
+          <a href="#"> <i class="ri-arrow-right-line"></i> Details</a>
+          <a href="#"> <i class="ri-arrow-right-line"></i> Genuine Work </a>
+        </div>
+
+        <div class="box">
+          <h3>Social Medias links</h3>
+          <a href="#"> <i class="ri-facebook-fill"> </i> Facebook</a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i>Twitter</a>
+          <a href="#"><i class="ri-instagram-fill"></i> Instagram</a>
+          <a href="#"> <i class="ri-whatsapp-fill"></i> Whatsapp</a>
+          <a href="#"> <i class="ri-youtube-fill"></i> Youtube</a>
+        </div>
+
+        <div class="box">
+          <h3>Newsletter</h3>
+          <p>Subscribe for latest update</p>
+          <form action="#">
+            <input type="email" placeholder="Enetr Your Email" id="" />
+            <input type="submit" value="Subscribe" class="btn" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="credit">
+      Created By Shoukath Ali | all right reserved!
+    </section>
     <!-- footer section end  -->
 
     <!-- custom js file link  -->
     <script src="js/script.js"></script>
-
-</body>
-
+  </body>
 </html>
