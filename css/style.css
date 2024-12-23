@@ -1315,6 +1315,11 @@ transition: all 1s;
     left: auto;
     right: 8rem;
   }
+  .contact .map {
+height: 200px;
+    width: 100%;
+
+  }
 }
 @media (max-width: 768px) {
   #search-btn {
@@ -1369,6 +1374,11 @@ transition: all 1s;
   }
   .banner-container {
     width: 50%;
+  }
+  .contact .map {
+
+    width: 100%;
+
   }
 }
 
