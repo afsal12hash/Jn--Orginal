@@ -26,14 +26,18 @@ html {
 
 html::-webkit-scrollbar {
   width: 1rem;
+ 
 }
 
 html::-webkit-scrollbar-track {
   background: #eae0dc;
+
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #ff4400;
+  background: #5a3c32;
+  border-radius: 30px;
+  bor
 }
 
 section {
