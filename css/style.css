@@ -1305,6 +1305,7 @@ transition: all 1s;
   }
   .home {
     padding: 3rem 2rem;
+    margin: 199px auto;
   }
   .home #slide-next,
   .home #slide-prev {
